@@ -661,6 +661,7 @@ The test dataset deliberately contains the same `account_id` in two different or
 ```text
 account_id = ACC-1001
 ```
+It exists in all three organisations (`org_8812`, `org_4421`, `org_7305`), with different values in each. Two of them are shown below:
 
 The records belong to:
 
@@ -674,7 +675,7 @@ Example:
 | organisation_id | account_id | account_name | advisor_id |
 |---|---|---|---|
 | `org_8812` | `ACC-1001` | Northstar Growth Account | `ADV-001` |
-| `org_4421` | `ACC-1001` | Meridian Wealth Account | `ADV-017` |
+| `org_4421` | `ACC-1001` | Meridian Wealth Account | `ADV-002` |
 
 Although the `account_id` is identical, these are **two separate business records** because `organisation_id` is part of the business key.
 
